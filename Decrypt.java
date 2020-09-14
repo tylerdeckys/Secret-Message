@@ -14,13 +14,19 @@ public class Decrypt {
 
         // TODO: open the "encrypted.txt" file
 Scanner in = new Scanner(new FileInputStream("encrypted.txt"));
+        
+        // TODO: create an output string
+    String out = "";
+
         // TODO: read one line at a time using a loop
+while (in.hasNext()){
 
-
-            // TODO: create an output string
-
+   String line = in.nextLine();
+    
             // TODO: read one character at a time using a 2nd loop
-
+for (int i = 0; i < line.length(); i++) {
+ char c = line.charAt(i);
+}
 
                 // TODO: if the character is a period, write a space in the output string
 
@@ -28,7 +34,7 @@ Scanner in = new Scanner(new FileInputStream("encrypted.txt"));
 
                 // TODO: else, write the character that is 10 codes less in the output string
 
-            
+                     }
 
             // TODO: display the output string
 

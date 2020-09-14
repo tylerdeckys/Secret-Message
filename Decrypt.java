@@ -13,7 +13,7 @@ public class Decrypt {
     public static void main(String[] args) throws FileNotFoundException {
 
         // TODO: open the "encrypted.txt" file
-
+Scanner in = new Scanner(new FileInputStream("encrypted.txt"));
         // TODO: read one line at a time using a loop
 
 
